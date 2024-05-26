@@ -155,8 +155,6 @@ def CreateWindow():
 
 #Sets up the GPIO pins
 GPIO.setwarnings(False)
-GPIO.setmode(GPIO.BCM)
-
 
 #Calls Window Creation Method
 CreateWindow()
